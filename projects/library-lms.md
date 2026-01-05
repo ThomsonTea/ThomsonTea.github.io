@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/lms/lms-thumbnail.png
 title: "Library Management System (LMS)"
-date: 2025
+date: 2025-01-25
 published: true
 labels:
   - C++
