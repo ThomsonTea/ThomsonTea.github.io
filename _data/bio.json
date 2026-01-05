@@ -16,10 +16,12 @@
     ]
   },
   "interests": [
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Open Source Development" },
+    { "name": "Software Architecture" },
+    { "name": "Philosophy" },
+    { "name": "Psychology" },
+    { "name": "Co-op Video Games" },
+    { "name": "Instrumental Performance" }
   ],
   "skills": [
     {
@@ -58,7 +60,7 @@
     {
       "company": "Pegasus Automation ( PG ) Sdn Bhd",
       "position": "Techinical Writter",
-      "website": https://pegasus-automation.com/",
+      "website": "https://pegasus-automation.com/",
       "startDate": "2023-05-12",
       "endDate": "2023-09-24",
       "summary": "",
@@ -81,7 +83,7 @@
       "Coordinated the logistics of food donation drives, including collecting, sorting, and distributing essential supplies to those in need.",
       "Engaged with donors and community members to raise awareness about social welfare projects."
       ]
-    },
+    }
   ],
   "awards": [
     {
