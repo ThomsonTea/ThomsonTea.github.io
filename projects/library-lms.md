@@ -14,10 +14,10 @@ summary: "A robust C++ and SQL-based system designed to automate library operati
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/lms/lms-visual-report.png" class="img-thumbnail" >
-  <img width="200px" src="../img/lms/lms-book-searching.png" class="img-thumbnail" >
-  <img width="200px" src="../img/lms/lms-payment.png" class="img-thumbnail" >
-  <img width="200px" src="../img/lms/lms-profile.png" class="img-thumbnail" >
+  <img width="400px" src="../img/lms/lms-visual-report.png" class="img-thumbnail" >
+  <img width="400px" src="../img/lms/lms-book-searching.png" class="img-thumbnail" >
+  <img width="400px" src="../img/lms/lms-payment.png" class="img-thumbnail" >
+  <img width="400px" src="../img/lms/lms-profile.png" class="img-thumbnail" >
 </div>
 
 The Library Management System (LMS) is a professional-grade software solution designed to modernize traditional library operations. In the digital age, many institutions still struggle with manual book tracking and inefficient borrowing procedures. This project addresses those challenges by providing a centralized digital platform that automates core functions to enhance operational efficiency and user accountability.
