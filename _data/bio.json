@@ -16,7 +16,6 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
     { "name": "Neuromorphic Computing" },
     { "name": "Quantum Computing" },
     { "name": "Robotics" },
@@ -86,7 +85,7 @@
   ],
   "awards": [
     {
-      "title": "STPM Academic Excellence Award (Anugerah Pelajar Cemerlang)",
+      "title": "STPM Academic Excellence Award",
       "date": "2022",
       "awarder": "SMK Teluk Air Tawar",
       "summary": "Recognized for outstanding academic performance in STPM (Form 6) for achieving a CGPA of 3.84"
@@ -96,6 +95,12 @@
       "date": "2023 - Present",
       "awarder": "Universiti Teknikal Malaysia Melaka (UTeM)",
       "summary": "Achieved Dean's List recognition for all completed semesters to date (Semester 1 to 5), consistently maintaining a GPA above 3.70."
+    },
+    {
+      "title": "Third Place - SULAM X PINEAPPLE FARM DIGITALIZATION",
+      "data": "2026",
+      "awarder": "Lembaga Perindustrian Nenas Malaysia (LPNM)",
+      "summary": "Developed a mobile application designed to improve and digitalize the pineapple purchasing process in Malaysia, bridging the gap between local farmers and consumers."
     }
   ],
   "references": [
