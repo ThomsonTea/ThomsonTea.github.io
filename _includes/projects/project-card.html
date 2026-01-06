@@ -1,19 +1,17 @@
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-sm-6 col-md-4">
-      <div class="col-sm-6 col-md-4 d-flex align-items-center justify-content-center">
-        {% if include.page.image_svg %}
-          <div class="w-100">
-            {% include {{ include.page.image_svg }} %}
-          </div>
-        {% else %}
-          <img
-            src="{{ site.baseurl }}/{{ include.page.image }}"
-            height="225"
-            class="rounded-start img-fluid"
-            alt="{{ include.page.title }}">
-        {% endif %}
-      </div>
+      {% if include.page.image_svg %}
+        <div class="w-100">
+          {% include {{ include.page.image_svg }} %}
+        </div>
+      {% else %}
+        <img
+          src="{{ site.baseurl }}/{{ include.page.image }}"
+          height="225"
+          class="rounded-start img-fluid"
+          alt="{{ include.page.title }}">
+      {% endif %}
     </div>
     <div class="col-sm-6 col-md-8">
       <div class="card-body">
