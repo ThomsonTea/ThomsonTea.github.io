@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/retina/retina-thumbnail.png
+image: img/retina/retina-thumbnail.svg
 title: "Retina Classifier Expert System"
 date: 2025-06-22
 published: true
