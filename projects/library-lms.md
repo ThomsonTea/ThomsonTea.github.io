@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/project/lms/lms-thumbnail.svg
+image: img/lms/lms-thumbnail.svg
 title: "Library Management System (LMS)"
 date: 2025-01-25
 published: true
