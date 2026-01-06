@@ -35,6 +35,26 @@
   ],
   "education": [
     {
+      "institution": "SMK Bagan Jaya",
+      "area": "Sijil Pelajaran Malaysia (SPM)",
+      "studyType": "Science Stream (Sains)",
+      "startDate": "2016-01",
+      "endDate": "2021-03",
+      "courses": [
+        "Malay Language", "English Language", "Moral Education", "History", "Mathematics", "Additional Mathematics", "Physics", "Chemistry", "Biology", "Chinese Language"
+      ]
+    },
+    {
+      "institution": "SMK Telok Air Tawar",
+      "area": "Sijil Tinggi Persekolahan Malaysia (STPM)",
+      "studyType": "Science Stream (Sains)",
+      "startDate": "2021-07",
+      "endDate": "2023-02",
+      "courses": [
+        "Pengajian Am", "Mathematics", "Physics", "Chemistry"
+      ]
+    },
+    {
       "institution": "Universiti Teknical Malaysia Melaka, Malaysia, UTeM",
       "area": "Software Development",
       "studyType": "Bachelor of Computer Science",
