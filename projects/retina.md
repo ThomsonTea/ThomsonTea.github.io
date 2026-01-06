@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image_svg: img/project/retina/retina-thumbnail.svg
+image: img/project/retina/retina-thumbnail.svg D:\portfolio\ThomsonTea.github.io\img\retina\retina-thumbnail.svg
 title: "Retina Classifier Expert System"
 date: 2025-06-22
 published: true
