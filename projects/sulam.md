@@ -75,7 +75,4 @@ The application is designed for scalability with several planned enhancements:
   <a href="https://github.com/ThomsonTea/SULAM---Pineaple-Connect" class="btn btn-primary btn-lg px-4 shadow-sm">
     <i class="fab fa-github me-2"></i> View Source Code
   </a>
-  <a href="https://github.com/ThomsonTea/SULAM---Pineaple-Connect/archive/refs/heads/main.zip" class="btn btn-outline-dark btn-lg px-4 shadow-sm">
-    <i class="fas fa-download me-2"></i> Download APK
-  </a>
 </div>
