@@ -91,8 +91,8 @@
       "company": "Sonoa Idea Design Engineering",
       "position": "Junior Renovation Assistant",
       "website": "",
-      "startDate": "2021-03-15",
-      "endDate": "2021-07-23",
+      "startDate": "2021-03",
+      "endDate": "2021-07",
       "summary": "",
       "highlights": [
         "Participated in various renovation projects, including demolition, framing, drywall installation,and finishing.",
@@ -101,14 +101,28 @@
     },
     {
       "company": "Pegasus Automation ( PG ) Sdn Bhd",
-      "position": "Techinical Writter",
+      "position": "Freelance Techinical Writter",
       "website": "https://pegasus-automation.com/",
-      "startDate": "2023-05-12",
-      "endDate": "2023-09-24",
+      "startDate": "2023-05",
+      "endDate": "2023-09",
       "summary": "",
       "highlights": [
         "Writing and editing technical documentation, such as user manuals, guides, and FAQS, in clear and concise language.",
         "Organizing and structuring complex information into user-friendly formats, such as online help systems or knowledge bases."
+      ]
+    },
+    {
+      "company": "Pegasus Automation (PG) Sdn Bhd",
+      "position": "Freelance Junior Developer",
+      "website": "https://pegasus-automation.com/",
+      "startDate": "2024-03",
+      "endDate": "Present",
+      "summary": "Operating as an independent contractor to support engineering teams with technical documentation and system analysis.",
+      "highlights": [
+        "Analyzed complex software architectures to produce high-quality technical manuals and user guides.",
+        "Translated technical codebase requirements into user-friendly FAQs and knowledge bases for non-technical stakeholders.",
+        "Collaborated remotely with engineering teams to document system workflows and API functionality.",
+        "Improved internal documentation structure, resulting in faster onboarding for new technical staff."
       ]
     }
   ],
