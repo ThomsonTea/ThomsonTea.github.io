@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "13500", "city": "Permatang Pauh", "countryCode": "MY", "region": "Penang" },
     "profiles": [
       { "network": "github", "username": "ThomsonTea", "url": "http://github.com/ThomsonTea" },
-      { "network": "linkedin", "username": "ThomsonTea", "url": "linkedin.com/in/tee-yong-jian-03a3a33a3" },
+      { "network": "linkedin", "username": "ThomsonTea", "url": "http://linkedin.com/in/tee-yong-jian-03a3a33a3" },
       { "network": "twitter", "username": "ThomsonTea", "url": "https://x.com/ThomsonTea" },
       { "network": "instagram", "username": "ThomsonTea", "url": "https://www.instagram.com/tea.y.j/" }
     ]

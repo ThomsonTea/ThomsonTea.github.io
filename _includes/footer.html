@@ -1,39 +1,37 @@
 <footer class="bg-dark text-white py-5 mt-5">
   <div class="container">
     <div class="row g-4">
-      <div class="col-lg-4 text-center text-lg-start">
-        <h5 class="fw-bold mb-1 text-primary">{{ site.data.bio.basics.name }}</h5>
-        <p class="small text-muted mb-4">{{ site.data.bio.basics.label }}</p>
-          <div class="d-flex justify-content-center justify-content-lg-start gap-3">
-            {% for profile in site.data.bio.basics.profiles %}
-              {% comment %} 
-                Check if the URL is missing http/https (like your LinkedIn link) 
-              {% endcomment %}
-              {% assign profile_url = profile.url %}
-              {% unless profile_url contains "http" %}
-                {% assign profile_url = profile_url | prepend: "https://" %}
-              {% endunless %}
+      <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+        {% for profile in site.data.bio.basics.profiles %}
+          {% comment %} 
+            Ensure the URL is correctly captured from your JSON
+          {% endcomment %}
+          {% assign profile_url = profile.url %}
+          {% unless profile_url contains "http" %}
+            {% assign profile_url = profile_url | prepend: "https://" %}
+          {% endunless %}
 
-              <a href="{{ profile_url }}" 
-                class="text-white hover-lift-sm" 
-                target="_blank" 
-                rel="noopener" 
-                title="{{ profile.network | capitalize }}">
-                
-                {% if profile.network == "twitter" or profile.network == "x" %}
-                  <i class="fab fa-x-twitter fa-lg"></i>
-                {% else %}
-                  <i class="fab fa-{{ profile.network | downcase }} fa-lg"></i>
-                {% endif %}
-              </a>
-            {% endfor %}
-
-            {% if site.data.bio.basics.email %}
-              <a href="mailto:{{ site.data.bio.basics.email }}" class="text-white hover-lift-sm" title="Email">
-                <i class="fas fa-envelope fa-lg"></i>
-              </a>
+          <a href="{{ profile_url }}" 
+            class="social-icon-link" 
+            target="_blank" 
+            rel="noopener" 
+            title="{{ profile.network | capitalize }}">
+            
+            {% if profile.network == "twitter" or profile.network == "x" %}
+              <i class="fab fa-x-twitter fa-lg"></i>
+            {% else %}
+              {% comment %} Fallback to the network name for FontAwesome icons {% endcomment %}
+              <i class="fab fa-{{ profile.network | downcase }} fa-lg"></i>
             {% endif %}
-          </div>
+          </a>
+        {% endfor %}
+
+        {% if site.data.bio.basics.email %}
+          <a href="mailto:{{ site.data.bio.basics.email }}" class="social-icon-link" title="Email">
+            <i class="fas fa-envelope fa-lg"></i>
+          </a>
+        {% endif %}
+      </div>
       </div>
 
       <div class="col-lg-8">
