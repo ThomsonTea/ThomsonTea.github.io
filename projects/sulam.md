@@ -14,34 +14,12 @@ labels:
 summary: "An award-winning mobile application developed to digitalize the pineapple farming industry, bridging the gap between rural farmers, wholesalers, and urban marketplaces."
 ---
 
-<div class="container pb-5">
-  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3 justify-content-center">
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <img src="../img/sulam/farmer-profile.png" class="card-img-top rounded-3 border" alt="Farmer Profile">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <img src="../img/sulam/farmer-product.png" class="card-img-top rounded-3 border" alt="Farmer Product">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <img src="../img/sulam/market-price.png" class="card-img-top rounded-3 border" alt="Market Price">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <img src="../img/sulam/stock-availability.png" class="card-img-top rounded-3 border" alt="Stock Availability">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 border-0 shadow-sm">
-        <img src="../img/sulam/vendor-contact.png" class="card-img-top rounded-3 border" alt="Vendor Contact">
-      </div>
-    </div>
-  </div>
+<div class="text-center p-4">
+  <img src="../img/sulam/farmer-profile.png" class="img-thumbnail project-img-custom" alt="Farmer Profile">
+  <img src="../img/sulam/farmer-product.png" class="img-thumbnail project-img-custom" alt="Farmer Product">
+  <img src="../img/sulam/market-price.png" class="img-thumbnail project-img-custom" alt="Market Price">
+  <img src="../img/sulam/stock-availability.png" class="img-thumbnail project-img-custom" alt="Stock Availability">
+  <img src="../img/sulam/vendor-contact.png" class="img-thumbnail project-img-custom" alt="Vendor Contact">
 </div>
 
 ## <i class="fas fa-info-circle me-2"></i>Project Overview
