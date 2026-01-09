@@ -14,14 +14,12 @@ labels:
 summary: "An award-winning mobile application developed to digitalize the pineapple farming industry, bridging the gap between rural farmers, wholesalers, and urban marketplaces."
 ---
 
-<div class="text-center mb-5">
-  <div class="row g-2">
-    <div class="col-6"><img src="../img/sulam/farmer-profile.png" class="img-fluid rounded shadow-sm border" alt="Farmer Profile"></div>
-    <div class="col-6"><img src="../img/sulam/farmer-product.png" class="img-fluid rounded shadow-sm border" alt="Farmer Product"></div>
-    <div class="col-6"><img src="../img/sulam/market-price.png" class="img-fluid rounded shadow-sm border" alt="Real Time market price"></div>
-    <div class="col-6"><img src="../img/sulam/stock-availability.png" class="img-fluid rounded shadow-sm border" alt="Stock Availability"></div>
-    <div class="col-6"><img src="../img/sulam/vendor-contact.png" class="img-fluid rounded shadow-sm border" alt="Vendor Contact"></div>
-  </div>
+<div class="text-center p-5">
+    <img width="400px" src="../img/sulam/farmer-profile.png" class="img-thumbnail">
+    <img width="400px" src="../img/sulam/farmer-product.png" class="img-thumbnail">
+    <img width="400px" src="../img/sulam/market-price.png" class="img-thumbnail">
+    <img width="400px" src="../img/sulam/stock-availability.png" class="img-thumbnail">
+    <img width="400px" src="../img/sulam/vendor-contact.png" class="img-thumbnail">
 </div>
 
 ## <i class="fas fa-info-circle me-2"></i>Project Overview
