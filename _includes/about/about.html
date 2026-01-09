@@ -1,53 +1,66 @@
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
+<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-5 border-bottom">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
-      </div>
-      <div class="col-lg-8">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
-        <p class="lead">{{ site.data.bio.basics.summary }}</p>
-        <hr class="my-4">
-        <p class="lead m-0">
-          Interests:
-          {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-        </p>
-        <hr class="my-4">
-        <div class="row">
-
-          {% if site.data.bio.basics.website %}
-            {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='house' %}
-            </div>
-          {% endif %}
-
-          {% if site.data.bio.basics.email %}
-            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='envelope' %}
-            </div>
-          {% endif %}
-
-          {% for profile in site.data.bio.basics.profiles %}
-            {% capture url %}{{ profile.url }}{% endcapture %}
-            {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name=name %}
-            </div>
-          {% endfor %}
-
+    <div class="row align-items-center">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="position-relative">
+          <img width="300px" src="{{ site.data.bio.basics.picture }}" 
+               class="d-block mx-auto rounded-circle shadow-lg border border-4 border-white">
         </div>
+      </div>
 
-        <div class="text-end mt-4">
-          <a href="{{ '/aboutme' | relative_url }}" class="btn btn-outline-primary btn-lg px-5 shadow-sm">
-            <i class="fas fa-user-circle me-2"></i> Know More About Me...
-          </a>
+      <div class="col-lg-8">
+        <div class="ps-lg-4 text-center text-lg-start">
+          <h1 class="display-3 fw-bold mb-2">{{ site.data.bio.basics.name }}</h1>
+          <p class="lead text-primary fw-semibold mb-4">{{ site.data.bio.basics.label }}</p>
+          
+          <div class="bg-white bg-opacity-10 p-4 rounded-4 shadow-sm mb-4">
+            <p class="lead mb-0 text-secondary">{{ site.data.bio.basics.summary }}</p>
+          </div>
+
+          <div class="mb-4">
+            <span class="text-muted small text-uppercase fw-bold d-block mb-2">Technical Interests:</span>
+            {% for interest in site.data.bio.interests %}
+              <span class="badge rounded-pill border text-dark bg-light px-3 py-2 me-1 mb-2">{{ interest.name }}</span>
+            {% endfor %}
+          </div>
+
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 align-items-center">
+            <div class="d-flex gap-3 me-lg-4">
+              {% if site.data.bio.basics.website %}
+                {% include about/social.html url=site.data.bio.basics.website name='house' %}
+              {% endif %}
+
+              {% if site.data.bio.basics.email %}
+                {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+                {% include about/social.html url=url name='envelope' %}
+              {% endif %}
+
+              {% for profile in site.data.bio.basics.profiles %}
+                {% capture url %}{{ profile.url }}{% endcapture %}
+                {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+                {% include about/social.html url=url name=name %}
+              {% endfor %}
+            </div>
+
+            <div class="ms-lg-auto mt-4 mt-lg-0">
+              <a href="{{ '/aboutme' | relative_url }}" class="btn btn-primary btn-lg px-4 rounded-pill shadow">
+                <i class="fas fa-user-circle me-2"></i> Know More About Me
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<style>
+  .col.text-center i {
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+    color: var(--bs-primary);
+}
+.col.text-center i:hover {
+    transform: translateY(-3px);
+}
+</style>
