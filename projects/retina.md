@@ -10,6 +10,7 @@ labels:
   - Deep Learning
   - Artificial Intelligence
   - Tkinter
+  - Desktop App
 summary: "An AI-powered diagnostic tool that uses deep learning to classify retinal diseases from fundus images, providing real-time medical insights and severity analysis."
 ---
 

@@ -10,6 +10,7 @@ labels:
   - SQL
   - Database Management
   - Command Line Interface
+  - CLI
 summary: "A robust C++ and SQL-based system designed to automate library operations, including book inventory, user management, and fine calculations."
 ---
 
