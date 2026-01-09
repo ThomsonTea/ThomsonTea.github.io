@@ -33,6 +33,24 @@
       "keywords": [ "Window", "Ubuntu", "Git/GitHub", "g++"]
     }
   ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "Malay",
+      "fluency": "Native"
+    },
+    {
+      "language": "Chinese (Mandarin)",
+      "fluency": "Native"
+    },
+    {
+      "language": "Chinese (Hokkien)",
+      "fluency": "Conversational"
+    }
+  ],
   "education": [
     {
       "institution": "SMK Bagan Jaya",
