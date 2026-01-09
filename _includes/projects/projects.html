@@ -5,12 +5,28 @@
         <h1 class="display-4 text-start">Projects</h1>
       </div>
       
-      <div class="col-md-6 text-md-end">
-        <div class="btn-group btn-group-sm" role="group">
-          <button type="button" class="btn btn-outline-dark active" onclick="filterProjects('all')">All</button>
-          <button type="button" class="btn btn-outline-dark" onclick="filterProjects('Flutter')">Flutter</button>
-          <button type="button" class="btn btn-outline-dark" onclick="filterProjects('C++')">C++</button>
-          <button type="button" class="btn btn-outline-dark" onclick="filterProjects('Java')">Java</button>
+      <div class="row mb-4">
+        <div class="col-12 mb-2 d-flex flex-wrap align-items-center gap-2">
+          <span class="text-muted small fw-bold text-uppercase me-2">Platform:</span>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-outline-primary active filter-type" onclick="filterProjects('all', this, 'type')">All</button>
+            <button type="button" class="btn btn-outline-primary filter-type" onclick="filterProjects('Mobile', this, 'type')">Mobile</button>
+            <button type="button" class="btn btn-outline-primary filter-type" onclick="filterProjects('Web', this, 'type')">Web App</button>
+            <button type="button" class="btn btn-outline-primary filter-type" onclick="filterProjects('Desktop', this, 'type')">Desktop</button>
+            <button type="button" class="btn btn-outline-primary filter-type" onclick="filterProjects('CLI', this, 'type')">CLI</button>
+            <button type="button" class="btn btn-outline-primary filter-type" onclick="filterProjects('Robotics', this, 'type')">Robotics</button>
+          </div>
+        </div>
+
+        <div class="col-12 d-flex flex-wrap align-items-center gap-2">
+          <span class="text-muted small fw-bold text-uppercase me-2">Language:</span>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-outline-secondary active filter-lang" onclick="filterProjects('all', this, 'lang')">All</button>
+            <button type="button" class="btn btn-outline-secondary filter-lang" onclick="filterProjects('C++', this, 'lang')">C++</button>
+            <button type="button" class="btn btn-outline-secondary filter-lang" onclick="filterProjects('Java', this, 'lang')">Java</button>
+            <button type="button" class="btn btn-outline-secondary filter-lang" onclick="filterProjects('Dart', this, 'lang')">Dart/Flutter</button>
+            <button type="button" class="btn btn-outline-secondary filter-lang" onclick="filterProjects('Python', this, 'lang')">Python</button>
+          </div>
         </div>
       </div>
     </div>
@@ -39,23 +55,35 @@
 </div>
 
 <script>
-// Simple script to handle button clicks
-function filterProjects(label) {
+// Store the current active filters
+let activeFilters = {
+  type: 'all',
+  lang: 'all'
+};
+
+function filterProjects(value, btnElement, category) {
+  // 1. Update the active filter state
+  activeFilters[category] = value.toLowerCase();
+
+  // 2. Update UI: Toggle 'active' class for buttons in the specific group
+  const groupClass = category === 'type' ? '.filter-type' : '.filter-lang';
+  document.querySelectorAll(groupClass).forEach(btn => btn.classList.remove('active'));
+  btnElement.classList.add('active');
+
+  // 3. Filter the project wrappers
   const items = document.querySelectorAll('.project-wrapper');
   
   items.forEach(item => {
-    if (label === 'all' || item.getAttribute('data-labels').includes(label)) {
+    const projectLabels = item.getAttribute('data-labels').toLowerCase();
+    
+    // Check if item matches BOTH Type and Language filters
+    const matchesType = activeFilters.type === 'all' || projectLabels.includes(activeFilters.type);
+    const matchesLang = activeFilters.lang === 'all' || projectLabels.includes(activeFilters.lang);
+
+    if (matchesType && matchesLang) {
       item.style.display = 'block';
     } else {
       item.style.display = 'none';
-    }
-  });
-
-  // Update button active state
-  document.querySelectorAll('.btn-group .btn').forEach(btn => {
-    btn.classList.remove('active');
-    if(btn.innerText === label || (label === 'all' && btn.innerText === 'All')) {
-      btn.classList.add('active');
     }
   });
 }
