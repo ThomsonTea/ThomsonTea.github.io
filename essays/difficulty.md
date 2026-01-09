@@ -1,54 +1,63 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
-# All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+title: "The Difficult Things Will Always Be Difficult"
+date: 2025-12-06
 published: true
 labels:
-  - Engineering
+  - Computer Science
+  - Student Life
+  - Reflection
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*Difficulty: something that is hard to accomplish, deal with, or understand.*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+Last week, a friend asked me a question that really made me think: *Why is it so much harder to be an officer in our student branch than to work a regular on-campus job?* He had been struggling with bookkeeping for the student organization and felt frustrated.  
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+I gave him the typical answer: being an officer requires managing your time effectively between school, work, and responsibilities—often without anyone telling you exactly what to do. It’s mostly true, but as a computer science student, I realized there’s a deeper perspective:  
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+> The difficult things will always be difficult.
 
-Here's what I think: the difficult things will always be difficult.
+---
 
-## In the context of programming
+## From a Computer Science Perspective
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+In computer science, difficulty is expected. Writing code that works for a single user is one thing; writing software that scales, interacts with humans, and solves real problems is another. Algorithms, data structures, and programming languages provide tools, but they don’t remove the fundamental difficulty of solving problems that involve humans, data, and systems.  
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+Take projects in our CS courses or hackathons as examples. Even with the best tutorials and frameworks, debugging a complex system or integrating multiple components is inherently challenging. A program that “just works” rarely comes without trial, error, and persistence. This mirrors real-world software development: the hard problems don’t go away—they just evolve.
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+---
 
-## In the context of engineering
+## Managing Complexity in Engineering and Systems
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+Engineering is at the heart of CS. Designing software or systems often involves handling multiple moving parts simultaneously: databases, APIs, UI, and backend logic. Large-scale projects require coordination, version control, testing, and documentation—just like engineering projects in the real world.  
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
+For instance, I’ve worked on team projects where we had to implement a distributed system or an app with real-time updates. Even with careful planning, unexpected errors, conflicting versions, or miscommunication among team members can make progress painfully slow. Complexity is inherent—it’s the nature of building meaningful systems.
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+---
 
-## In the context of relationships
+## Relationships and Collaboration in CS
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+CS is not just about coding; it’s about collaboration. Working in teams, coordinating with peers, or communicating with mentors are all critical. Maintaining productive team dynamics can be as difficult as writing a bug-free algorithm. Humans are unpredictable, just like production systems—they have their own constraints, priorities, and behaviors.  
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+Group projects in university teach us the same lesson: even the best technical skills won’t guarantee success if we fail to communicate or manage expectations. Relationships—whether with teammates, instructors, or clients—require effort, patience, and understanding. This is a key part of the “difficulty” in computer science education.
 
-Relationships have always been difficult, and by nature will continue to be so.
+---
 
-## Okay!
+## Being a Student Leader is Part of Growth
 
-So back to the original premise; why is being one of the club officers so difficult?
+So why is being a club officer so difficult? Because it’s designed to challenge you. Just like debugging a complex program, leading a student branch pushes you to manage time, resolve conflicts, and make decisions that have consequences. The difficulty isn’t a flaw—it’s an opportunity to grow.  
 
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
+In computer science, every difficult problem—whether a coding challenge, a team project, or a personal responsibility—is an opportunity to improve your skills, resilience, and understanding of systems and people.
 
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+---
+
+## The Key Question
+
+When you face something difficult, the real question isn’t *“Why is it so hard?”* but:  
+
+> *“Is it worth it?”*  
+
+As a CS student, I’ve learned that the answer is often yes. The most challenging problems—whether in code, projects, or leadership—teach lessons you can’t learn any other way.
