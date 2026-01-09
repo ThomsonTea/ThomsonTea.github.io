@@ -20,7 +20,6 @@
     { "name": "Software Architecture" },
     { "name": "Philosophy" },
     { "name": "Psychology" },
-    { "name": "Co-op Video Games" },
     { "name": "Instrumental Performance" }
   ],
   "skills": [
@@ -35,16 +34,16 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Professional Working Proficiency"
-    },
-    {
       "language": "Malay",
       "fluency": "Native"
     },
     {
       "language": "Chinese (Mandarin)",
       "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
     },
     {
       "language": "Chinese (Hokkien)",
